@@ -1,0 +1,150 @@
+.ebg-card {
+    background-color: rgb(24, 22, 69, 0.8);
+    border: 5px solid #3800a9;
+}
+
+body {
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+}
+
+.pointer-card {
+    cursor: pointer;
+}
+
+.selected-card {
+
+    border: 5px solid #fbbf30;
+}
+
+.ebg-badge {
+    background-color: #341A7C;
+    border-radius: 30px;
+}
+
+.ebg-card-image {
+    width: 100%;
+
+    padding: 8%
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    margin: auto
+}
+
+::-webkit-scrollbar-track {
+    background-color: black
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(217, 208, 242);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: white;
+    border-radius: 5px;
+}
+
+body {
+    background-color: #1c194e;
+}
+
+.BG {
+    z-index: -1000;
+    width: 100vw;
+}
+
+.navfont {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+    color: rgb(180, 175, 175);
+}
+
+.navfont2 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+    color: #1c194e;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+    color: rgb(249, 236, 236);
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: white;
+    border-bottom: 3px solid white;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 0px;
+}
+
+.navimg {
+    max-width: 25px;
+}
+
+.dm {
+    display: none;
+}
+
+
+.font {
+    font-family: 'MinecraftiaRegular';
+}
+
+.font2 {
+    font-family: 'MinecraftiaRegular';
+    font-weight: 700;
+}
+
+.animation {
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+
+
+
+.btnsty {
+    text-decoration: none;
+    margin: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 7px;
+    background-color: lightgray;
+    border: 2px;
+    color: black;
+    border-color: black;
+    border-radius: 0px;
+}
+
+.btnsty:hover {
+    color: black;
+}
+
+
+@media only screen and (max-width: 1096px) {
+    .dv {
+        display: none;
+    }
+
+    .dm {
+        display: flex;
+    }
+}

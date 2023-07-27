@@ -1,0 +1,175 @@
+::-webkit-scrollbar {
+    width: 10px;
+    margin: auto
+}
+
+::-webkit-scrollbar-track {
+    background-color: black
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(217, 208, 242);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: white;
+    border-radius: 5px;
+}
+
+body {
+    background-color: #1c194e;
+}
+
+.BG {
+    z-index: -1000;
+    width: 100vw;
+}
+
+.navfont {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+    color: rgb(180, 175, 175);
+}
+
+.navfont2 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+    color: #1c194e;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+    color: rgb(249, 236, 236);
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: white;
+    border-bottom: 3px solid white;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 0px;
+}
+
+.navimg {
+    max-width: 25px;
+}
+    
+.dm{
+    display: none;
+}
+
+.Sbg {
+    background-color: rgb(24, 22, 69, 0.8);
+    margin-top: 10vh;
+    border: 5px solid #3800a9;
+}
+
+.Sbg2 {
+    background-color: rgb(24, 22, 69, 0.8);
+    margin-top: 20vh;
+    border: 5px solid #3800a9;
+    margin-top: 10vh;
+}
+
+.font {
+    font-family: 'MinecraftiaRegular';
+}
+
+.font2 {
+    font-family: 'MinecraftiaRegular';
+    font-weight: 700;
+}
+
+.animation {
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+
+@keyframes slideUpIn {
+    0% {
+        transform: translateY(20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+
+    0% {
+        transform: translateY(20px);
+    }
+}
+
+.slideUpIn {
+    -webkit-animation-name: slideUpIn;
+    animation-name: slideUpIn;
+}
+
+.h5,
+h5 {
+    font-size: .8rem
+}
+
+.h1,
+h1 {
+    font-size: 1.75rem
+}
+
+.h3,
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.btnsty {
+    text-decoration: none;
+    margin: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 7px;
+    background-color: lightgray;
+    border: 2px;
+    color: black;
+    border-color: black;
+    border-radius: 0px;
+}
+
+.btnsty:hover {
+    color: black;
+}
+
+@media only screen and (max-width: 1100px) {
+    .Sbg {
+        margin-top: 15vh;
+    }
+}
+
+@media only screen and (max-width: 1096px) {
+    .dv{
+        display: none;
+    }
+    
+    .dm{
+        display: flex;
+    }
+}
